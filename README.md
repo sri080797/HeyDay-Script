@@ -8,24 +8,22 @@ Hey Day is one of Auburn University's longest-running traditions where students,
 
 For more information, visit the official [Auburn University Hey Day webpage](http://sga.auburn.edu/hey-day/).
 
-## Script Overview
+## What the script does
 
 This simple Bash script asks the user for their name and provides a personalized greeting and welcome message to celebrate Auburn’s Hey Day!
 
 ## Code Description
 
 Here’s the script in action:
-
+>The Script Starts with a Greeting:
+The greeting="Hey" variable holds the greeting message.
+The Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for Auburn's Hey Day.
 ```ruby 
-#!/bin/bash
-
-# Greeting and welcoming wishes
 greeting="Hey"
 Wishes="Welcome to Auburn's Hey Day!"
-
-# Asking name of user
-echo "Hey there! What's your name?"
-read -p "Enter your name: " name
+```
+>The script prints "Hey there! What's your name?" using the echo command.
+It then waits for the user to enter their name and stores it in the name variable using ```read -p "Enter your name: " name.```
 
 # Display the personalized greeting and  wishes for Auburn Hey day
 echo "$greeting, $name!"
