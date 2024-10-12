@@ -15,22 +15,22 @@ This simple Bash script asks the user for their name and provides a personalized
 ## Code Description
 
 Here’s the script in action:
->The Script Starts with a Greeting:
-The greeting="Hey" variable holds the greeting message.
-The Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for Auburn's Hey Day.
+The Script Starts with a Greeting
+greeting="Hey" variable holds the greeting message.
+Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for Auburn's Hey Day.
 ```ruby
 
 Greeting="Hey"
 Wishes="Welcome to Auburn's Hey Day!"
 
 ```
->The script prints "Hey there! What's your name?" using the``` echo ```command.
+The script prints "Hey there! What's your name?" using the``` echo ```command.
 
 It then waits for the user to enter their name and stores it in the name variable using
 ```ruby 
 read -p "Enter your name: " name.
 ```
-> Then script uses the name and display the personalized greeting and  wishes for Auburn Hey day
+Then script uses the name and display the personalized greeting and  wishes for Auburn Hey day
 ```ruby
 echo "$Greeting, $name!"
 echo "$Wishes"
