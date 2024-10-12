@@ -18,9 +18,11 @@ Here’s the script in action:
 >The Script Starts with a Greeting:
 The greeting="Hey" variable holds the greeting message.
 The Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for Auburn's Hey Day.
-```ruby 
-greeting="Hey"
+```ruby
+
+Greeting="Hey"
 Wishes="Welcome to Auburn's Hey Day!"
+
 ```
 >The script prints "Hey there! What's your name?" using the``` echo ```command.
 
@@ -30,7 +32,7 @@ read -p "Enter your name: " name.
 ```
 > Then script uses the name and display the personalized greeting and  wishes for Auburn Hey day
 ```ruby
-echo "$greeting, $name!"
+echo "$Greeting, $name!"
 echo "$Wishes"
 echo "Have a great day, $name!"
 ```
