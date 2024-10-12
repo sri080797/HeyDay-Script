@@ -22,14 +22,17 @@ The Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for A
 greeting="Hey"
 Wishes="Welcome to Auburn's Hey Day!"
 ```
->The script prints "Hey there! What's your name?" using the echo command.
-It then waits for the user to enter their name and stores it in the name variable using ```read -p "Enter your name: " name.```
+>The script prints "Hey there! What's your name?" using the``` echo ```command.
 
-# Display the personalized greeting and  wishes for Auburn Hey day
+It then waits for the user to enter their name and stores it in the name variable using
+```ruby 
+read -p "Enter your name: " name.
+```
+> Then script uses the name and display the personalized greeting and  wishes for Auburn Hey day
+```ruby
 echo "$greeting, $name!"
 echo "$Wishes"
 echo "Have a great day, $name!"
-
 ```
 **Example Output**
 Here’s an example of what the script will output:
@@ -40,5 +43,6 @@ Hey, Mounika!
 Welcome to Auburn's Hey Day!
 Have a great day, Mounika!
 ```
+*This script is simple, friendly, and gives the user a personalized greeting while celebrating Auburn's Hey Day!*
 
 
