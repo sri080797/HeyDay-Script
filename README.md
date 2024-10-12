@@ -15,8 +15,11 @@ This simple Bash script asks the user for their name and provides a personalized
 ## Code Description
 
 Here’s the script in action:
+
 The Script Starts with a Greeting
+
 greeting="Hey" variable holds the greeting message.
+
 Wishes="Welcome to Auburn's Hey Day!" variable holds a welcome message for Auburn's Hey Day.
 ```ruby
 
