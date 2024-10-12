@@ -1,4 +1,4 @@
-# Hey Day  Script 
+# Hey Day Script 
 
 Welcome to Auburn University's **Hey Day**, an annual tradition that fosters community, friendliness, and school spirit. This Bash script reflects the spirit of Hey Day by asking for your name and greeting you with a simple, friendly message!
 
