@@ -16,7 +16,7 @@ This simple Bash script asks the user for their name and provides a personalized
 
 Here’s the script in action:
 
-The Script Starts with a Greeting
+The Script Starts with a assigning variables 
 
 greeting="Hey" variable holds the greeting message.
 
