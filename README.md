@@ -21,16 +21,17 @@ Here’s the script in action:
 
 # Greeting and welcoming wishes
 greeting="Hey"
-compliment="Welcome to Auburn's Hey Day!"
+Wishes="Welcome to Auburn's Hey Day!"
 
 # Asking name of user
 echo "Hey there! What's your name?"
 read -p "Enter your name: " name
 
-# Display the personalized greeting and wishes for Auburn Hey day
+# Display the personalized greeting and  wishes for Auburn Hey day
 echo "$greeting, $name!"
-echo "$compliment"
+echo "$Wishes"
 echo "Have a great day, $name!"
+
 ```
 **Example Output**
 Here’s an example of what the script will output:
